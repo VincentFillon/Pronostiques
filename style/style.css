@@ -1,0 +1,213 @@
+/* 
+    Created on : 28 oct. 2014, 16:15:21
+    Author     : Vincent FILLON
+*/
+
+// Fichier CSS du projet ********** Pronostiques **********
+html {
+    height:                             100%;
+    background:                         transparent;
+}
+
+@font-face {
+    font-family:                        'ea_sports_covers_scbold';
+    src:                                url('../polices/ea_sports_font-webfont.eot');
+    src:                                url('../polices/ea_sports_font-webfont.eot?#iefix') format('embedded-opentype'),
+                                        url('../polices/ea_sports_font-webfont.woff2') format('woff2'),
+                                        url('../polices/ea_sports_font-webfont.woff') format('woff'),
+                                        url('../polices/ea_sports_font-webfont.ttf') format('truetype'),
+                                        url('../polices/ea_sports_font-webfont.svg#ea_sports_covers_scbold') format('svg');
+    font-weight:                        normal;
+    font-style:                         normal;
+}
+
+#logo-navbar {
+    margin-top:                         -15px;
+}
+
+#contenu-body {
+    margin-top:                         75px;
+}
+
+body {
+    height:                             100%;
+    background:                         url("../images/fonds/fond_bleu.jpg");
+    background-size:                    cover;
+    font-family:                        ea_sports_covers_scbold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:                              white;
+}
+
+h5 {
+    border:                             1px solid;
+    border-radius:                      5px;
+    background:                         black;
+    padding:                            5px;
+    margin-top:                         5px;
+}
+
+p {
+    font-family:                        Century Gothic;
+    text-align:                         justify;
+    color:                              white;
+}
+
+input { 
+    font-family:                        Century Gothic;
+    color:                              #222;
+    border-bottom-right-radius:         4px !important;
+    border-top-right-radius:            4px !important;
+}
+
+.label-danger {
+    font-family:                        Century Gothic;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-btn {
+    color:                              #11638E;
+    background:                         transparent;
+}
+
+.navbar-btn {
+    border:                             1px solid white;
+}
+
+.navbar-btn:hover {
+    border:                             1px solid white;
+    border-radius:                      4px;
+    color:                              white;
+}
+
+.navbar-nav li {
+    cursor:                             pointer;
+}
+
+.row {
+    margin-left:                        0px;
+    margin-right:                       0px;
+}
+
+.contenu {
+    text-align:                         center;
+    margin-top:                         50px;
+}
+
+#contenu_en_creation {
+    height:                             80px;
+    font-size:                          18px;
+    line-height:                        44px;
+}
+
+#contenu_en_creation a {
+    float:                              right;
+}
+
+#header_choix_sport {
+    margin-bottom:                      20px;
+}
+
+#header_choix_sport button {
+    height:                             25px;
+    line-height:                        15px;
+    font-size:                          10px;
+}
+
+.btn-header {
+    background-color:                   #222;
+    color:                              white;
+}
+
+.btn-header:hover {
+    background-color:                   transparent;
+    border:                             1px solid #222;
+    border-bottom:                      5px solid #222;
+    height:                             30px !important;
+    margin-top:                         -5px;
+    color:                              #222;
+}
+
+.btn-header:nth-of-type(2) ~ .btn-header{
+    cursor:                             default;
+}
+
+#header_choix_sport button:last-of-type:hover, 
+#header_choix_sport button:nth-of-type(n+4):hover{
+    background-color:                   #222;
+    color:                              white;
+    height:                             25px !important;
+    border-bottom-width:                1px;
+    margin-top:                         0px;
+}
+
+#separateur {
+    font-size:                          20px;
+}
+
+#grille_choix_sport button {
+    height:                             150px;
+    color:                              white;
+}
+
+.btn-default {
+    background-color:                   transparent;
+    color:                              white;
+}
+
+.btn-default:hover {
+    color:                              white;
+    background-color:                   #222;
+    border-color:                       transparent;
+    transition:                         background-color 1s;
+}
+
+#choix_sports .row, #sports_collectifs .row, #sports_individuels .row {
+    margin-bottom:                      10px;
+}
+
+#championnat_choisit {
+    color:                              #333;
+}
+
+#championnat_choisit:hover {
+    text-decoration:                    none;
+}
+
+#loader img {
+    height:                             125px;
+}
+
+#classements_championnats th {
+    text-align:                         center;
+    color:                              red;
+}
+
+aside {
+    border:                             1px solid #222;
+    border-radius:                      5px;
+    margin-bottom:                      5px;
+    padding:                            10px;
+}
+
+#actualites .media {
+    border-bottom:                      1px solid #333;
+}
+
+#actualites .media:last-of-type {
+    border-bottom:                      none;
+}
+
+#actualites .media img {
+    width:                              100%;
+}
+
+#gestion_compte > div {
+    padding-top:                        20px;
+}
+
+.nav-justified a {
+    color:                              white;
+}
